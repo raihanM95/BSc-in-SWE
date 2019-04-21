@@ -1,0 +1,24 @@
+1.EVM company
+2.Political Consulting Firm
+3.Transport for vote
+4.Food for vote
+5.Political party-1
+6.Political party-2
+
+
+
+
+
+
+
+Development
+
+- Website using HTML including CTA, API and affiliate marketing
+- PhP code for purchase ticket or registration or anything including PDF reporting
+- Mobile App development (Story board using powerpoint)
+
+- Facebook, Instagram page 
+
+- Logo and banner design using any tool
+
+- Video to promote the organization (include this video in website, mobile app, social media)
